@@ -1,18 +1,25 @@
 public class Kuza{
    
    int starostPsa;
+   String ime;
 
-   public Kuza(String ime){
-      System.out.println("Ime psa :" + ime ); 
+   public Kuza() {
+
    }
    
-   public void setAge( int starostPsa){
+   public void setStarostPsa( int starostPsa){
        this.starostPsa = starostPsa;
    }
 
-   public int getAge( ){
-       System.out.println("Kuža je star :" + starostPsa ); 
+   public int getStarostPsa( ){
        return starostPsa;
+   }
+   public void setIme( String ime){
+       this.ime = ime;
+   }
+
+   public int getIme( ){
+       return ime;
    }
    
    public static void main(String []args){
@@ -23,6 +30,7 @@ public class Kuza{
 
       mojKuza.getStarostPsa( );
 
+      System.out.println("Ime :" + mojKuza.starostPsa ); 
       System.out.println("Starost :" + mojKuza.starostPsa ); 
    }
 }
