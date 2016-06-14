@@ -1,7 +1,7 @@
 public class Kuza{
    
    int starostPsa;
-   String ime;
+   String imePsa;
 
    public Kuza() {
 
@@ -14,11 +14,11 @@ public class Kuza{
    public int getStarostPsa( ){
        return starostPsa;
    }
-   public void setIme( String ime){
+   public void setImePsa(String ime){
        this.ime = ime;
    }
 
-   public int getIme( ){
+   public int getImePsa( ){
        return ime;
    }
    
